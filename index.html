@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhoda Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: #184C43;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid white;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      margin-top: 5px;
+      font-weight: 400;
+    }
+
+    /* Section titles */
+    h3 {
+      color: #184C43;
+      margin: 30px 0 15px;
+      font-size: 1.5rem;
+    }
+
+    /* About Section */
+    .about {
+      background: #e6e6e6;
+      padding: 20px;
+      text-align: center;
+      border-top: 3px solid #b36b00;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    /* Projects */
+    .projects {
+      padding: 20px;
+    }
+
+    .project-list {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .project-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 300px;
+      text-align: left;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .project-card h4 {
+      margin: 10px;
+      font-size: 1.1rem;
+      color: #b36b00;
+    }
+
+    .project-card p {
+      margin: 10px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* Contact */
+    .contact {
+      padding: 20px;
+      text-align: center;
+      background: #e6e6e6;
+    }
+
+    .contact a {
+      display: block;
+      margin: 5px 0;
+      color: #184C43;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="portfolio img.jpg" alt="Profile Picture">
+    <h1>Rhoda Yetunde Kolawole</h1>
+    <h2>Frontend Developer</h2>
+  </header>
+
+  <!-- About -->
+  <section class="about">
+    <h3>Get in Touch</h3>
+    <p>
+      I'm Rhoda, a frontend developer with a love for creating beautiful and responsive web interfaces.
+      I specialize in HTML, CSS, and JavaScript. With a background in graphic design, I bring a creative
+      approach to everything I build. Whether it's a personal blog, landing page, or full-stack app,
+      I enjoy transforming ideas into polished digital experiences.
+    </p>
+  </section>
+
+  <!-- Projects -->
+   <section class="projects">
+    <h3>Project</h3>
+    <div class="project-list">
+      <div class="project-card">
+        <img src= "Rectangle 9.jpg"alt="Personal Portfolio">
+        <h4>Personal Portfolio Website</h4>
+        <p>This is my first personal portfolio website where I practice HTML, CSS, and JavaScript while showing a little about me and my projects.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="tab img.jpg.jpg" alt="Quiz App">
+        <h4>Quiz App</h4>
+        <p>I built a fun quiz app using HTML, CSS, and JavaScript. The app highlights correct answers in green and wrong answers in red, then automatically moves to the next question until the quiz ends.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="pc.jpg" alt="Simple Flyer">
+        <h4>Simple Flyer</h4>
+        <p>I created this flyer design to improve my graphic design skills. I focused on using clear text, attractive colors, and balanced layouts to communicate the message effectively.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <h3>Contact Me</h3>
+    <a href="mailto:kolawole28adijat@gmail.com">📧 Email: kolawole28adijat@gmail.com</a>
+    <a href="https://linkedin.com/in/adijat-kolawole" target="_blank">🔗 LinkedIn: linkedin.com/in/adijat-kolawole</a>
+    <a href="https://github.com/rhoda-web" target="_blank">💻 Github: github.com/rhoda-web</a>
+  </section>
+
+</body>
+</html>
